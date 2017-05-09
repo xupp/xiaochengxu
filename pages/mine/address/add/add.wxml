@@ -12,7 +12,7 @@
         <view class="section">
             <view class="name">所在区域</view>
             <view>
-                <import src="/asset/template/address-temp.wxml"/>
+                <import src="/asset/template/address.wxml"/>
                 <template is="addressPicker" data="{{provinceIndex:city.provinceIndex,cityIndex:city.cityIndex,districtIndex:city.districtIndex,province:city.province,city:city.city[city.selectedProvince],district:city.district[city.selectedCity]}}"/>
             </view>
         </view>

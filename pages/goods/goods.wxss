@@ -136,15 +136,15 @@
     text-align: center;
     margin: 0 auto;
     display: flex;
+    align-items: center;
 }
 .goods-info .show-detail view{
     height: 100%;
-    padding-top: 4rpx;
-    box-sizing: border-box;
 }
-.goods-info-image .goods-image image{
-  height:100vh;
-  margin-top: -6rpx;
+.goods-info-image .goods-image{
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .choose-goods-time{
     padding: 20rpx;

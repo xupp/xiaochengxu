@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/fail/fail",
     "pages/welfare/welfare",
     "pages/order/checkout/checkout",
     "pages/mine/address/list/list",

@@ -86,7 +86,10 @@ Page({
         return;
       }
       if(!wx.getStorageSync('unionId') && wx.getStorageSync('auth') !== 'success' && !wx.getStorageSync('uid')){
-        app.applyNotice();
+        // app.applyNotice();
+        wx.showToast({
+          title: '请重新授权',
+        })
         return;
       }
       wx.navigateTo({

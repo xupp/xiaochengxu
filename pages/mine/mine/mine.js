@@ -22,7 +22,10 @@ Page({
     this.onLoad();
     this.loadUserInfo();
     if(!wx.getStorageSync('unionId') && wx.getStorageSync('auth') !== 'success'){
-      app.applyNotice();
+      // app.applyNotice();
+      wx.showToast({
+        title: '请重新授权',
+      })
       return false;
     }
   },

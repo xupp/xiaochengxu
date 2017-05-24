@@ -16,7 +16,7 @@ App({
       wx.login({
         success: function (ret) {
           wx.getUserInfo({
-            success: function (res) {
+            success: function (res) {console.log('成功了');
               wx.setStorageSync('auth','success');
               var $post = {
                 code : ret.code,
@@ -33,39 +33,45 @@ App({
                   success: function(res){    console.log(res,3333)
                     wx.setStorageSync('unionId',res.data); 
 
-                     wx.request({    
-                        url: 'https://shizhencaiyuan.com/groupAdmin.php/Home/Login/getUid',    
-                        data: {data:JSON.stringify({'unionId':res.data})},
-                        method: 'POST',
-                        header: {
-                            'content-type': 'application/x-www-form-urlencoded'
-                        },
-                        success: function(res){  
-                          
-                           wx.setStorageSync('uid',res.data.data); 
-                          
-                          // page.setData({userInfo:uid})
+                    wx.request({    
+                      url: 'https://shizhencaiyuan.com/groupAdmin.php/Home/Login/getUid',    
+                      data: {data:JSON.stringify({'unionId':res.data})},
+                      method: 'POST',
+                      header: {
+                          'content-type': 'application/x-www-form-urlencoded'
+                      },
+                      success: function(res){  
+                        
+                          wx.setStorageSync('uid',res.data.data); 
+                        
+                        // page.setData({userInfo:uid})
 
-                          if(!res.data.data){
-                            wx.showModal({
-                              title: '您还未绑定手机号',
-                              confirmText: '去绑定',
-                              showCancel: false,
-                              success: function(res) {//console.log(res)
-                                if (res.confirm) {
-                                  wx.navigateTo({
-                                    url: '/pages/mine/login/login',
-                                  })
-                                }
+                        if(!res.data.data){
+                          wx.showModal({
+                            title: '您还未绑定手机号',
+                            confirmText: '去绑定',
+                            showCancel: false,
+                            success: function(res) {//console.log(res)
+                              if (res.confirm) {
+                                wx.navigateTo({
+                                  url: '/pages/mine/login/login',
+                                })
                               }
-                            })
-                          }
-                          
-                        }    
-                      });  
-                    
+                            }
+                          })
+                        }
+                        
+                      }    
+                    });  
+                
                   }    
               });  
+            },
+            fail() {
+              console.log('失败了');
+              wx.navigateTo({
+                url: '/pages/fail/fail',
+              })
             }
           }) 
         }

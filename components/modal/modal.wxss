@@ -1,0 +1,52 @@
+
+
+.user-modal{
+  width: 100vw;
+  height: 100vh;
+  /* background: url('/asset/img/bg.png') repeat-x; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  z-index: 99999;
+}
+.user-modal image, .user-modal .form{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.user-modal .form{
+    display: flex;  
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.user-modal .form .form-con{
+    background: white;
+    padding: 60rpx;
+    width:70%;
+    border-radius: 5px;
+}
+.user-modal .form-con .section{
+    display: flex;
+    padding: 30rpx 0;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.user-modal form .section .code{
+    background:#ff9157;
+    border: 2rpx solid #ff9157;
+    color: white;
+    padding: 10rpx;
+    white-space:nowrap;
+    box-sizing: border-box;
+}
+.btn-area{
+    margin-top: 40rpx;
+
+}

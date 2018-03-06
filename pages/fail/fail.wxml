@@ -1,0 +1,24 @@
+<!--pages/fail/fail.wxml-->
+<view class="content">
+ <view class="fail-top">
+  <view class="fail-icon"><icon type="clear" size="70"/></view>
+  <text>登录搭伴拼团需允许授权，请重新进入并允许授权</text>
+  <text>拒绝授权搭伴拼团小程序将无法使用领取优惠券、下单、查看订单等功能</text>
+ </view>
+ <view class="fail-bottom">
+  <view><text>如何允许微信授权</text></view>
+  <view>
+    <view>
+    1.在小程序列表中左滑删除搭伴拼团小程序后，重新搜索”搭伴拼团“进入。
+    </view>
+    <!--<image src="src"></image>-->
+    <view>
+    2.点击进入搭伴拼团小程序后，将出现以下微信授权页面，点击“允许”。
+    <image src="/asset/img/shouquan.png"></image>
+    </view>
+  </view>
+ </view>
+</view>
+
+<import src="/asset/template/backhome.wxml" />
+<template is="backhome"/>

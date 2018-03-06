@@ -1,0 +1,39 @@
+/* pages/fail/fail.wxss */
+
+.fail-top{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 60rpx 30rpx;
+  box-sizing: border-box;
+}
+.fail-top .fail-icon{
+  text-align: center;
+}
+.fail-top text{
+  padding-top: 30rpx;
+}
+.fail-top text:first-child{
+  text-align: center;
+  font-size: 60rpx;
+}
+.fail-top text:last-child{
+  color: #999;
+}
+.fail-bottom{
+  color: #999;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
+}
+.fail-bottom view:first-child text{
+  color: #000;
+}
+.fail-bottom view{
+  padding-bottom: 30rpx;
+}
+image{
+  width: 542rpx;
+  height: 486rpx;
+  margin: 30rpx auto;
+  display: block;
+}

@@ -1,0 +1,21 @@
+<!--pages/mine/login/login.wxml-->
+
+<view class="content">
+  <image src='/asset/img/bg.png'></image>
+  <view class="form">
+    <form bindsubmit="formSubmit">
+        <view class="section">
+            <input name="phone" type="number" bindblur="savePhone" placeholder="手机号" value="{{phone}}"/>
+        </view>
+        <view class="section">
+            <input name="code" placeholder="验证码"/>
+            <text class="code" bindtap="getCode" wx-if="{{!is_send}}">获取验证码</text>
+            <text class="code" wx-if="{{is_send}}">验证码已发送</text>
+        </view>
+        <view class="btn-area">
+            <button formType="submit" class="common-color">登录</button>
+        </view>
+        <button open-type="getPhoneNumber" class="common-color" bindgetphonenumber="getPhoneNumber">获取手机号</button>
+    </form> 
+  </view>
+</view>

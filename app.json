@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index", 
+    "pages/group/group", 
+    "pages/welfare/welfare", 
+    "pages/mine/mine/mine",
+    "pages/mine/login/login",
+    "pages/mine/address/list/list", 
+    "pages/mine/address/add/add", 
+    "pages/mine/coupon/coupon", 
+    "pages/mine/group/list/list", 
+    "pages/mine/order/list/list", 
+    "pages/mine/group/info/info", 
+    "pages/mine/order/info/info", 
+    "pages/mine/flow/flow", 
+    "pages/mine/service/service", 
+    "pages/goods/goods", 
+    "pages/order/checkout/checkout", 
+    "pages/order/done/done", 
+    "pages/order/pay/pay", 
+    "pages/tenant/tenant", 
+    "pages/welcome/welcome", 
+    "pages/offered/offered", 
+    "pages/fail/fail" 
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "搭伴团购",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "selectedColor" : "#ff9157",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/asset/img/home.png",
+      "selectedIconPath": "/asset/img/home-tive.png"
+    },
+    {
+      "pagePath": "pages/group/group",
+      "text": "参团",
+      "iconPath": "/asset/img/group.png",
+      "selectedIconPath": "/asset/img/group-tive.png"
+    },
+    {
+      "pagePath": "pages/welfare/welfare",
+      "text": "福利",
+      "iconPath": "/asset/img/welfare.png",
+      "selectedIconPath": "/asset/img/welfare-tive.png"
+    },{
+      "pagePath": "pages/mine/mine/mine",
+      "text": "我的",
+      "iconPath": "/asset/img/mine.png",
+      "selectedIconPath": "/asset/img/mine-tive.png"
+    }]
+  }
+}

@@ -1,6 +1,5 @@
 /* pages/mine/mine.wxss */
 
-
 page{
     background: white;
 }
@@ -8,7 +7,7 @@ page{
     text-align: center;
     padding: 60rpx;
     box-sizing: border-box;
-    background: url('https://h5.partnertrip.cn/app/pintuan/img/mineheadbg2x.png');
+    background: url('**********************/app/pintuan/img/mineheadbg2x.png');
     color: white;
 }
 .content .mine-top image{
@@ -43,31 +42,31 @@ page{
   margin-right: 10rpx;
 }
 .iCon-tuan{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/mine-tuan.png') center center;
+  background: url('**********************/app/pintuan/img/mine-tuan.png') center center;
   background-size: cover;
 }
 .iCon-orderform{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/mine-orderform.png') no-repeat;
+  background: url('**********************/app/pintuan/img/mine-orderform.png') no-repeat;
   background-size:contain;
 }
 .iCon-coupon{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/mine-coupon.png') center center;
+  background: url('**********************/app/pintuan/img/mine-coupon.png') center center;
   background-size: cover;
 }
 .iCon-address{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/mine-address.png') no-repeat;
+  background: url('**********************/app/pintuan/img/mine-address.png') no-repeat;
   background-size:contain;
 }
 .iCon-buyingpro{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/mine-buyingpro.png') center center;
+  background: url('**********************/app/pintuan/img/mine-buyingpro.png') center center;
   background-size: cover;
 }
 .iCon-afetsel{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/mine-afetsel.png') no-repeat;
+  background: url('**********************/app/pintuan/img/mine-afetsel.png') no-repeat;
   background-size:contain;
 }
 .iCon-recommend{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/recommend.png') no-repeat;
+  background: url('**********************/app/pintuan/img/recommend.png') no-repeat;
   background-size:contain;
 }
 .kefu{

@@ -13,8 +13,8 @@
     <scroll-view scroll-x="true" class="nav-left">
       <view class="nav-left-category">
         <view bindtap="loadGroupList" data-catid="0">
-          <i class="iCon" wx:if="{{currentCatId == 0}}" style="background:url('https://h5.partnertrip.cn/app/pintuan/img/recommen-tive.png');background-size:cover"></i>
-          <i class="iCon" wx:else style="background:url('https://h5.partnertrip.cn/app/pintuan/img/recommend.png');background-size:cover"></i>
+          <i class="iCon" wx:if="{{currentCatId == 0}}" style="background:url('**********************/app/pintuan/img/recommen-tive.png');background-size:cover"></i>
+          <i class="iCon" wx:else style="background:url('**********************/app/pintuan/img/recommend.png');background-size:cover"></i>
           全部
         </view>
           <block wx:for="{{navData}}" wx:key>

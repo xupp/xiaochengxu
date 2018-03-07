@@ -64,6 +64,7 @@ Page({
         }
       })
   },
+
   //格式化时间
   timeFormat: function (timestamp) {
     var timestamp = timestamp;

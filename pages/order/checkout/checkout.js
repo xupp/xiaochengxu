@@ -162,13 +162,11 @@ Page({
       openid : null,
       goods_id : goods_id
     }
-
     if(this.group_id !== undefined){
       $data.group_id = this.group_id;
     }else{
       $data.group_off_time = group_off_time;
     }
-    
     var _this = this;
       wx.request({
         url:app.globalData.config.getOrder,

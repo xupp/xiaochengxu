@@ -76,12 +76,12 @@
   margin-right: 6rpx;
 }
 .container-goods .main-goods .main-goods-ship view:nth-of-type(1) .iCon-ship{
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/ca.png') no-repeat 0 0rpx;
+  background: url('**********************/app/pintuan/img/ca.png') no-repeat 0 0rpx;
   background-size:contain;
 }
 .container-goods .main-goods .main-goods-ship view:nth-of-type(2) .iCon-ship{
   width:40rpx;
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/timer.png') no-repeat 0 0rpx;
+  background: url('**********************/app/pintuan/img/timer.png') no-repeat 0 0rpx;
   background-size: contain;
 }
 .container-goods .main-goods .main-goods-ship view text{

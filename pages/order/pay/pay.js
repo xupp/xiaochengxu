@@ -11,6 +11,7 @@ Page({
     orderInfo : {}
   },
   onLoad:function(options){
+
     var _this = this;  
     wx.getStorage({
       key: 'orderInfo',
@@ -29,8 +30,8 @@ Page({
         success: function (res) {
           if(res.code){
             wx.request({
-              // url: 'https://daban2017.leanapp.cn/pay.php',
-              url: 'https://h5.partnertrip.cn/app/wxpay/public/pay.php',
+              // url: 'https://daban.leanapp.cn/pay.php',
+              url: '**********************/app/wxpay/public/pay.php',
               data: {
                 code : res.code,
                 goods_name: _this.data.orderInfo.goods_name,

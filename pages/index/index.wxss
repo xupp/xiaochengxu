@@ -30,7 +30,7 @@
 }
 .iCon-arrow{
   margin-right: 0rpx;
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/bac@2x.png') no-repeat;
+  background: url('**********************/app/pintuan/img/bac@2x.png') no-repeat;
   background-size:contain;
 }
 /*列表*/

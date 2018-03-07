@@ -32,7 +32,7 @@ image{
 .home{
   width: 90rpx;
   height: 90rpx;
-  background: url('https://h5.partnertrip.cn/app/pintuan/img/home.png') no-repeat;
+  background: url('**********************/app/pintuan/img/home.png') no-repeat;
   background-size: cover;
   position: fixed;
   left: 20rpx;

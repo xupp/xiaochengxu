@@ -1,4 +1,5 @@
 <!--index.wxml-->
+
 <!-- <import src='../../components/modal/modal.wxml' />
 
 <template is="user-modal" wx-if="{{showModal}}"></template> -->
@@ -8,8 +9,8 @@
     <scroll-view scroll-x="true" class="nav-left">
       <view class="nav-left-category">
         <view bindtap="loadGoods">
-          <i class="iCon" wx:if="{{currentCatId == 0}}" style="background:url('https://h5.partnertrip.cn/app/pintuan/img/recommen-tive.png');background-size:cover"></i>
-          <i class="iCon" wx:else style="background:url('https://h5.partnertrip.cn/app/pintuan/img/recommend.png');background-size:cover"></i>
+          <i class="iCon" wx:if="{{currentCatId == 0}}" style="background:url('**********************/app/pintuan/img/recommen-tive.png');background-size:cover"></i>
+          <i class="iCon" wx:else style="background:url('**********************/app/pintuan/img/recommend.png');background-size:cover"></i>
           推荐
         </view>
           <block wx:for="{{navData}}" wx:key>

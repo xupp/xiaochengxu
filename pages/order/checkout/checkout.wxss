@@ -2,7 +2,7 @@
 
 .address{
     height:194rpx;
-    background: url('https://h5.partnertrip.cn/app/pintuan/img/address.png') no-repeat;
+    background: url('**********************/app/pintuan/img/address.png') no-repeat;
     background-size: cover;
     margin-bottom: 20rpx;
     display: flex;

@@ -80,7 +80,6 @@ Page({
       var times = Math.floor(time / (1000 * 60 * 60))+':'+Math.floor(time / (1000 * 60) % 60)+':'+Math.floor(time / 1000  % 60);
       return times;
     // },1000)
-
   },
   backHome : function(e){
     app.backHome();

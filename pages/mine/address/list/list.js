@@ -32,7 +32,7 @@ Page({
         _this.setData({
           addressList:res.data.data
         })
-         wx.setStorageSync('addressList', res.data.data)
+        wx.setStorageSync('addressList', res.data.data)
       }
     })
   },
